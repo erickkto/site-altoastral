@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdfbf7;
+  color: #333;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Menu de Navegação */
+
+nav {
+  background-color: #5c3d2e;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+}
+
+nav span {
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Home */
+
+.hero {
+  background-color: #5c3d2e;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #c9a96e;
+  color: #2b1b14;
+  padding: 15px 35px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+/* Estrutura das Seções e Cards */
+
+section {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section h2 {
+  font-size: 40px;
+  color: #5c3d2e;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #c9a96e;
+  padding-bottom: 10px;
+}
+
+.cards {
+  display: grid;
+  /* Divide a linha exatamente em 4 colunas iguais, sem funções avançadas */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.card {
+  background-color: #fbf8f3;
+  border: 1px solid #e1dbd3;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.card h3 {
+  font-size: 24px;
+  color: #5c3d2e;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Página de Serviços */
+
+.servico {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.servico img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.servico h3 {
+  font-size: 28px;
+  color: #5c3d2e;
+  margin-bottom: 15px;
+}
+
+.servico p {
+  font-size: 19px;
+  color: #555;
+}
+
+/* Página de Portfólio */
+
+.gallery {
+  display: grid;
+  /* Divide a galeria em 3 colunas simples para as fotos */
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Página de Contato */
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.contact-item {
+  margin-bottom: 25px;
+}
+
+.contact-item h4 {
+  font-size: 22px;
+  color: #5c3d2e;
+  margin-bottom: 10px;
+}
+
+.contact-item p, .contact-item a {
+  font-size: 19px;
+  color: #555;
+  text-decoration: none;
+}
+
+.contact-item a {
+  color: #5c3d2e;
+  font-weight: bold;
+}
